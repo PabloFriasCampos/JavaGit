@@ -18,7 +18,7 @@ public class Traduccion {
 		System.out.printf("%-10s %s\n", "Light", "Luz");
 		System.out.printf("%-10s %s\n", "Green", "Verde");
 		System.out.printf("%-10s %s\n", "Book", "Libro");
-		System.out.printf("%-10s %s\n", "Pyramid", "Pirámide");
+		System.out.printf("%-10s %s\n", "Fish", "Pescado");
 		
 	}
 }
