@@ -22,8 +22,7 @@ public class AreaRectangulo {
         System.out.println(" y la altura es " + altura); 
         double total; 
         total = base * altura; // Calcula y muestra el area
-        System.out.print("El area del rectangulo es: ");
-        System.out.println(total);
+        System.out.printf("El area del rectangulo es: %.2f ", total);
 
     }
 
