@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class AreaRectangulo {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.print("Introduzca la base y la altura del recctangulo: ");
+        System.out.print("Introduzca la base y la altura del rectangulo: ");
         double base, altura;
         base = s.nextDouble();
         altura = s.nextDouble();
