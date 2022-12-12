@@ -14,18 +14,13 @@ public class Pares {
     int suma = 0;
     System.out.print("Introduzca el número: ");
     long n = s.nextLong();
-    while(n>9){
+    while(n>0){
       if((n%10)%2==0){
         suma+=n%10;
         pares = n%10 + pares;
 
       }
       n = n/10;
-
-    }
-    if(n%2==0){
-      suma+=n%10;
-      pares = n%10 + pares;
 
     }
     System.out.println("Numeros pares: " + pares);
