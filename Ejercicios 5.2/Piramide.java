@@ -12,7 +12,7 @@ public class Piramide {
     Scanner s = new Scanner(System.in);
     System.out.print("Que carácter va a dibujar la pirámide: ");
     String c = s.next();
-    c+="   ";
+    c+=" ";
     System.out.print("Qué altura tendrá la pirámide: ");
     int altura = s.nextInt();
     for(int i=1;i<=altura;i++){
@@ -20,7 +20,7 @@ public class Piramide {
         System.out.print("  ");
 
       }
-      for(int j=0;j<i;j++){
+      for(int j=0;j<i+(i-1);j++){
         System.out.print(c);
 
       }
